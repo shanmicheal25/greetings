@@ -16,6 +16,13 @@ func Marriage(name string) string {
 	return message
 }
 
+// Hello returns a greeting for the named person.
+func Marriage2(name string) string {
+	// Return a greeting that embeds the name in a message.
+	message := fmt.Sprintf("Hi, %v. Welcome!", name)
+	return message
+}
+
 // Engagement commited..
 func Engagement(boy string, girl string) string {
 	// Return a greeting that embeds the name in a message.
